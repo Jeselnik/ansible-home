@@ -2,3 +2,5 @@ homeserver:
   hosts:
     debian:
       ansible_host: local-services.localdomain
+  vars:
+    ansible_user: debian
