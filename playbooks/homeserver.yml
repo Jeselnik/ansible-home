@@ -1,0 +1,5 @@
+- name: My first play
+  hosts: homeserver
+  tasks:
+   - name: Ping
+     ansible.builtin.ping:
